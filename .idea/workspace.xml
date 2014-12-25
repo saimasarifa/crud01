@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183dc4de-74c3-4c38-8bc0-4ea57c09ac29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view_email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update_form.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/students.sql" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/delete-contact.php" afterPath="$PROJECT_DIR$/delete_email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addin_contact.php" afterPath="$PROJECT_DIR$/addin_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addin_personal.php" afterPath="$PROJECT_DIR$/addin_personal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_contact.php" afterPath="$PROJECT_DIR$/edit_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_personal.php" afterPath="$PROJECT_DIR$/edit_personal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list_contact.php" afterPath="$PROJECT_DIR$/list_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list_personal.php" afterPath="$PROJECT_DIR$/list_personal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_contact.php" afterPath="$PROJECT_DIR$/view_contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_email.php" afterPath="$PROJECT_DIR$/create_email.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crud01.iws" />
@@ -52,14 +43,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_email.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3050239" vertical-offset="0" max-vertical-offset="836">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <marker date="1419502275799" expanded="true" signature="117:148" placeholder="select * fro..emails..." />
-                <marker date="1419502275799" expanded="true" signature="85:129" placeholder="select * fro..contact_information..." />
+                <marker date="1419502558951" expanded="true" signature="117:148" placeholder="select * fro..emails..." />
+                <marker date="1419502558951" expanded="true" signature="85:129" placeholder="select * fro..contact_information..." />
               </folding>
             </state>
           </provider>
@@ -80,8 +71,30 @@
       <file leaf-file-name="create_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1419504115615" expanded="true" signature="114:145" placeholder="select * fro..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5027933" vertical-offset="0" max-vertical-offset="537">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,18 +107,6 @@
               <caret line="18" column="4" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <marker date="1419499249339" expanded="true" signature="99:232" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list_contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.958333" vertical-offset="190" max-vertical-offset="1050">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <marker date="1419495686159" expanded="true" signature="98:131" placeholder="select * fro..contact_information..." />
               </folding>
             </state>
           </provider>
@@ -148,16 +149,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -191,6 +182,9 @@
         <option value="$PROJECT_DIR$/c_of_crud/list_email.php" />
         <option value="$PROJECT_DIR$/c_of_crud/view_email.php" />
         <option value="$PROJECT_DIR$/view_email.php" />
+        <option value="$PROJECT_DIR$/create_email.php" />
+        <option value="$PROJECT_DIR$/edit_form.php" />
+        <option value="$PROJECT_DIR$/update_form.php" />
       </list>
     </option>
   </component>
@@ -304,7 +298,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928312" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -426,7 +420,7 @@
         <state vertical-scroll-proportion="-8.958333" vertical-offset="190" max-vertical-offset="1050">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
-            <marker date="1419495686159" expanded="true" signature="98:131" placeholder="select * fro..contact_information..." />
+            <marker date="1419495686159" expanded="true" signature="-1:-1" placeholder="select * fro..contact_information..." />
           </folding>
         </state>
       </provider>
@@ -490,14 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="405">
@@ -510,12 +496,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3050239" vertical-offset="0" max-vertical-offset="836">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1419502275799" expanded="true" signature="117:148" placeholder="select * fro..emails..." />
-            <marker date="1419502275799" expanded="true" signature="85:129" placeholder="select * fro..contact_information..." />
+            <marker date="1419502558951" expanded="true" signature="117:148" placeholder="select * fro..emails..." />
+            <marker date="1419502558951" expanded="true" signature="85:129" placeholder="select * fro..contact_information..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1419504115615" expanded="true" signature="114:145" placeholder="select * fro..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5027933" vertical-offset="0" max-vertical-offset="537">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
