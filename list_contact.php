@@ -23,7 +23,7 @@ $result = mysqli_query($link, $query);
 <h1>contact  information table</h1>
 <table border="1" width="100%">
     <tr>
-        <td>id</td><p>
+        <td>ID</td><p>
         <td>Present address</td>
         <td>District</td>
         <td>Mobile</td>

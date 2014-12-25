@@ -129,7 +129,7 @@ $result = mysqli_query($link, $query);
             <td>
                 <a href="view_contact.php?id=<?php echo $row['id']?>">View/Show</a> |
 
-                <a href="edit_contact.php?ID=<?php echo $row['id']?>">Edit</a> |
+                <a href="edit_contact.php?id=<?php echo $row['id']?>">Edit</a> |
 
 
                 <a href="delete_contact.php?id=<?php echo $row['id']?>">Delete</a> |

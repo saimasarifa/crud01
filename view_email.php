@@ -7,7 +7,7 @@ $link = mysqli_connect("localhost",
     "lict@2",
     "students");
 
-$query = "select * from contact_information WHERE id= $id";
+$query = "select * from emails WHERE id= $id";
 
 $result = mysqli_query($link, $query);
 
@@ -16,6 +16,7 @@ $row = mysqli_fetch_assoc($result);
 
 print_r($row);
 
+
 ?>
 <p></p>
-    <a href="list_personal.php">Back to table view</a>
+<a href="list_email.php">Back to table view</a>

@@ -24,4 +24,4 @@ VALUES ('".$_POST['id']."','".$_POST['fullname']."','".$_POST['fathername']."','
 mysqli_query($link, $query);
 
 header('location:list_personal.php');
-//'$firstName', '$lastName','$phoneNumber'
+?>

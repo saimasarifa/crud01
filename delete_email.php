@@ -7,9 +7,10 @@ $link = mysqli_connect("localhost",
     "lict@2",
     "students");
 
-$query = "DELETE FROM `students`.`contact_information` WHERE `contact_information`.`id` = $id";
+$query = "DELETE FROM `students`.`emails` WHERE `emails`.`id` = $id";
 
 mysqli_query($link, $query);
 
-header('location:list_contact.php');
+header('location:list_email.php');
+
 ?>

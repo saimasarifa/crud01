@@ -14,7 +14,6 @@ $query = "UPDATE  `students`.`personal_information` SET full_name ='saima' WHERE
 $result=mysqli_query($link, $query);
 
 
-//mysql_fetch_array($result);
 ?>
 <ul>
     <li><a href="addin_personal.html">edit</a> </li>
