@@ -1,16 +1,15 @@
 <?php
 
 $id = $_GET['id'];
-//$lastname = $_GET['last_name'];
+
 
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
     "students");
 
-$query = "UPDATE  `personal_information` SET full_name ='saima' WHERE `personal_information`.`id` =$id";
-//$query ="UPDATE  `students`.`users` SET last_name=' ' WHERE `users`.`ID` = $id";
-//$query = "update users WHERE ID= $id";
+$query = "UPDATE  `students`.`personal_information` SET full_name ='saima' WHERE `personal_information`.`id` =$id";
+
 
 $result=mysqli_query($link, $query);
 
@@ -21,3 +20,4 @@ $result=mysqli_query($link, $query);
     <li><a href="addin_personal.html">edit</a> </li>
 </ul>
 <a href="list_personal.php">Back to Home</a>
+

@@ -54,7 +54,7 @@ $result = mysqli_query($link, $query);
             <td>
                 <a href="view_personal.php?id=<?php echo $row['id']?>">View/Show</a> |
 
-                <a href="edit_personal.php?ID=<?php echo $row['id']?>">Edit</a> |
+                <a href="edit_personal.php?id=<?php echo $row['id']?>">Edit</a> |
 
 
                 <a href="delete_personal.php?id=<?php echo $row['id']?>">Delete</a> |
