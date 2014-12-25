@@ -8,7 +8,7 @@ $link = mysqli_connect("localhost",
     "lict@2",
     "students");
 
-$query = "UPDATE  `contact_information` SET distric ='dhak' WHERE `contact_information`.`id` =$id";
+$query = "UPDATE  `contact_information` SET district ='dhak' WHERE `contact_information`.`id` =$id";
 //$query ="UPDATE  `students`.`users` SET last_name=' ' WHERE `users`.`ID` = $id";
 //$query = "update users WHERE ID= $id";
 

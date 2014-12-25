@@ -15,5 +15,5 @@ $row = mysqli_fetch_assoc($result);
 
 print_r($row);
 ?>
-<p>
-    <a href="list_contact.php">Back to table view</a>
+<p></p>
+    <a href="list_personal.php">Back to table view</a>

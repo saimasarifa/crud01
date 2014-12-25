@@ -16,16 +16,16 @@ $result = mysqli_query($link, $query);
 <ul>
     <li><a href="http://free-pdf-reader.en.softonic.com/download">Download PDF reader</a> </li></p>
     <li><a href="https://wordpress.com/wp-login.php?">Wordpress login</a> </li><p></p>
-    <li><a href="list_contact.php">go to contact information table</a> </li></p>
+    <li><a href="list_personal.php">go to personal information table</a> </li></p>
     <li><a href="create_personal.html">Create New</a> </li>
     <li><a href="create_contact.html">Create New contact</a> </li>
 </ul>
-<p>
+<h1>contact  information table</h1>
 <table border="1" width="100%">
     <tr>
-        <td>ID</td><p>
+        <td>id</td><p>
         <td>Present address</td>
-        <td>Distric</td>
+        <td>District</td>
         <td>Mobile</td>
         <td>Emergency contact </td>
         <td>Email</td>
@@ -40,7 +40,7 @@ $result = mysqli_query($link, $query);
         <tr>
             <td><?php echo $row['id']?></td>
             <td><?php echo $row['present_address']?></td>
-            <td><?php echo $row["distric"]?></td>
+            <td><?php echo $row["district"]?></td>
             <td><?php echo $row["mobile"]?></td>
             <td><?php echo $row['emergency_contact']?></td>
             <td><?php echo $row['email']?></td>
@@ -49,7 +49,7 @@ $result = mysqli_query($link, $query);
             <td>
                 <a href="view_contact.php?id=<?php echo $row['id']?>">View/Show</a> |
 
-                <a href="edit_contact.php?ID=<?php echo $row['id']?>">Edit</a> |
+                <a href="edit_contact.php?id=<?php echo $row['id']?>">Edit</a> |
 
 
                 <a href="delete_contact.php?id=<?php echo $row['id']?>">Delete</a> |

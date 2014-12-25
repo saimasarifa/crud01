@@ -1,8 +1,5 @@
 <?php
 
-//$firstName = $_POST['firstName'];
-//$lastName  = $_POST['lastName'];
-//$phoneNumber=$_POST['Phone Number']
 
 $link = mysqli_connect("localhost",
     "root",

@@ -12,6 +12,7 @@ $result = mysqli_query($link, $query);
 
 ?>
 
+
 <ul>
     <li><a href="http://free-pdf-reader.en.softonic.com/download">Download PDF reader</a> </li></p>
     <li><a href="https://wordpress.com/wp-login.php?">Wordpress login</a> </li><p></p>
@@ -19,10 +20,11 @@ $result = mysqli_query($link, $query);
     <li><a href="create_personal.html">Create New</a> </li>
     <li><a href="create_contact.html">Create New contact</a> </li>
 </ul>
+<h1>Personal information table </h1>
 
 <table border="1" width="100%">
     <tr>
-        <td>ID</td><p>
+        <td>id</td><p>
         <td>Name</td>
         <td>Father's name</td>
         <td>Mother's name</td>
@@ -101,9 +103,9 @@ $result = mysqli_query($link, $query);
 <p>
 <table border="1" width="100%">
     <tr>
-        <td>ID</td><p>
+        <td>id</td><p>
         <td>Present address</td>
-        <td>Distric</td>
+        <td>District</td>
         <td>Mobile</td>
         <td>Emergency contact </td>
         <td>Email</td>
@@ -118,7 +120,7 @@ $result = mysqli_query($link, $query);
         <tr>
             <td><?php echo $row['id']?></td>
             <td><?php echo $row['present_address']?></td>
-            <td><?php echo $row["distric"]?></td>
+            <td><?php echo $row["district"]?></td>
             <td><?php echo $row["mobile"]?></td>
             <td><?php echo $row['emergency_contact']?></td>
             <td><?php echo $row['email']?></td>
