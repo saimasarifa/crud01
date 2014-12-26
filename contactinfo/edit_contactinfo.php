@@ -2,6 +2,7 @@
 
 $id = $_GET['id'];
 
+
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
@@ -13,11 +14,13 @@ $result = mysqli_query($link, $query);
 
 $row = mysqli_fetch_assoc($result);
 
+//var_dump($row['distric']);
 
 
 ?>
 
 <form action="update_contactinfo.php" method="post">
+
     <h1> contact info edit form</h1>
 
     <label>ID:</label>
@@ -27,7 +30,14 @@ $row = mysqli_fetch_assoc($result);
         <input type="text" name="present_address" value="<?php echo $row['present_address'];?>" /><p>
 
         <label>Distric:</label>
-        <input type="text" name="distric" value="<?php echo $row["distric"];?>" /><p>
+
+        <select name="distric">
+            <option <?php if($row['distric'] =="dhaka") echo 'selected';?>value="dhaka">Dhaka</option>
+            <option <?php if($row['distric']=="chitagong") echo 'selected';?>value="chitagong">chitagong</option>
+            <option <?php if($row['distric']=="rajshai") echo 'selected';?>value="rajshai">rajshai</option>
+            <option <?php if($row['distric']=="sylhet") echo 'selected';?>value="sylhet">sylhet</option>
+            <option <?php if($row['distric']== "barisal") echo 'selected';?>value="barisal">barisal</option>
+        </select>
         <label>mobile number:</label>
         <input type="text" name="mobile" value="<?php echo $row["mobile"];?>" /><p>
         <label>Emergency contact:</label>
