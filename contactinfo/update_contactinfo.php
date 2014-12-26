@@ -11,7 +11,7 @@ $email = $_POST['email'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "shimu",
     "students");
 
 $query = "UPDATE `students`.`contactinfo` SET `present_address` = '".$presentaddress."' ,`distric` = '".$_GET['distric']."',
@@ -20,5 +20,5 @@ $query = "UPDATE `students`.`contactinfo` SET `present_address` = '".$presentadd
 
 mysqli_query($link, $query);
 
-header('location:list_contactinfo.php');
+header('location:list_acadamicinfo.php');
 ?>

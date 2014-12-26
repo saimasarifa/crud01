@@ -5,7 +5,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "shimu",
     "students");
 
 $query = "select * from academic WHERE id = $id";
@@ -19,7 +19,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="update_academicinfo.php" method="post">
+<form action="update_acadamicinfo.php" method="post">
 
     <h1> contact info edit form</h1>
 
@@ -27,7 +27,12 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="id" value="<?php echo $row['id'];?>" /><p>
 
         <label>level of education:</label>
-        <input type="text" name="level_of_education" value="<?php echo $row['level_of_education'];?>" /><p>
+        <select name="level_of_education">
+            <option <?php if($row['level_of_education']=='diploma') echo 'selected';?>value="diploma">diploma</option>
+            <option <?php if($row['level_of_education']=='bsc') echo 'selected';?>value="bsc">bsc</option>
+            <option <?php if($row['level_of_education']=='msc') echo 'selected';?>value="msc">msc</option>
+
+        </select>
 
         <label>exam title:</label>
         <input type="text" name="exam_title" value="<?php echo $row["exam_title"];?>" /><p>
@@ -39,6 +44,8 @@ $row = mysqli_fetch_assoc($result);
         <input type="text" name="result_type" value="<?php echo $row["result_type"];?>" /><p>
         <label>result</label>
         <input type="text" name="result" value="<?php echo $row["result"];?>" /><p>
+        <label>scale</label>
+        <input type="text" name="scale" value="<?php echo $row["scale"];?>" /><p>
         <label>passing year:</label>
         <input type="text" name="passing_year" value="<?php echo $row["passing_year"];?>" /><p>
         <label>duration:</label>
@@ -53,5 +60,6 @@ $row = mysqli_fetch_assoc($result);
 
 </form>
 
-<a href="../contactinfo/list_contactinfo.php">Back to Home</a>
+<a href="list_acadamicinfo.php">Back to Home</a>
+
 
