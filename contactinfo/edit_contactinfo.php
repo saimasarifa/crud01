@@ -30,13 +30,12 @@ $row = mysqli_fetch_assoc($result);
         <input type="text" name="present_address" value="<?php echo $row['present_address'];?>" /><p>
 
         <label>Distric:</label>
-
         <select name="distric">
-            <option <?php if($row['distric'] =="dhaka") echo 'selected';?>value="dhaka">Dhaka</option>
-            <option <?php if($row['distric']=="chitagong") echo 'selected';?>value="chitagong">chitagong</option>
-            <option <?php if($row['distric']=="rajshai") echo 'selected';?>value="rajshai">rajshai</option>
-            <option <?php if($row['distric']=="sylhet") echo 'selected';?>value="sylhet">sylhet</option>
-            <option <?php if($row['distric']== "barisal") echo 'selected';?>value="barisal">barisal</option>
+            <option <?php if($row['$distric']=='dhaka') echo 'selected';?>value="dhaka">dhaka</option>
+            <option <?php if($row['distric']=='chittagong') echo 'selected';?>value="chittagong">chittagong</option>
+            <option <?php if($row['distric']=='rajshai') echo 'selected';?>value="rajshai">rajshai</option>
+            <option <?php if($row['distric']=='sylhet') echo 'selected';?>value="sylhet">sylhet</option>
+            <option <?php if($row['distric']=='barisal') echo 'selected';?>value="barisal">barisal</option>
         </select>
         <label>mobile number:</label>
         <input type="text" name="mobile" value="<?php echo $row["mobile"];?>" /><p>
@@ -48,7 +47,7 @@ $row = mysqli_fetch_assoc($result);
 
 
 
-        <button type="submit">Submit</button>
+        <button type="submit">update</button>
 
 </form>
 

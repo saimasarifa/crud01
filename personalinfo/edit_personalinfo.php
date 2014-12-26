@@ -32,7 +32,11 @@ $row = mysqli_fetch_assoc($result);
         <label>Religion:</label>
         <input type="text" name="religion" value="<?php echo $row["religion"];?>" /><p>
         <label>Gender:</label>
-        <input type="text" name="gender" value="<?php echo $row["gender"];?>" /><p>
+        <input type="radio" name="gender" <?php if($row['gender'] =="male") echo 'checked';?>value="male"/>male
+        <input type="radio" name="gender" <?php if($row['gender'] =="female") echo 'checked';?>value="female"/>female
+    <p>
+
+
         <label>nationality:</label>
         <input type="text" name="nationality" value="<?php echo $row["nationality"];?>" /><p>
         <label>national id:</label>
